@@ -5,6 +5,7 @@ import com.stschool.ecommerce.model.Customer;
 import java.util.Scanner;
 
 public class CustomerUI {
+
     public Customer displaySignUpForm(){
         System.out.println("Customer Registration Form");
         Scanner sc = new Scanner(System.in);
